@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: class
-          image: 052937454741.dkr.ecr.ap-northeast-2.amazonaws.com/lecture-class:latest
+          image: hajeongcheol/class:latest
           ports:
             - containerPort: 8080
           resources:
